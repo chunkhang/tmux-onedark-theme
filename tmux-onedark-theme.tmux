@@ -71,12 +71,7 @@ set "status-style" "fg=$onedark_white" "bg=$onedark_black"
 set "@prefix_highlight_fg" "$onedark_black"
 set "@prefix_highlight_bg" "$onedark_blue"
 
-status_widgets=$(get "@onedark_widgets")
-time_format=$(get "@onedark_time_format" "%R")
-date_format=$(get "@onedark_date_format" "%d/%m/%Y")
-
 set "status-left" "#[fg=$onedark_black,bg=$onedark_blue] #S "
-set "status-right" "#{prefix_highlight} #[fg=$onedark_white,bg=$onedark_black]${time_format} | ${date_format} #[fg=$onedark_white, bg=$onedark_visual_grey] ${status_widgets} #[fg=$onedark_black,bg=$onedark_blue] #h "
 
 pane_sync=#{?pane_synchronized,*,}
 
