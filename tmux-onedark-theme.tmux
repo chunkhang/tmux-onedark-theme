@@ -72,6 +72,7 @@ set "@prefix_highlight_fg" "$onedark_black"
 set "@prefix_highlight_bg" "$onedark_blue"
 
 set "status-left" "#[fg=$onedark_black,bg=$onedark_blue] #S "
+set "status-right" "#{prefix_highlight}"
 
 pane_sync=#{?pane_synchronized,*,}
 
