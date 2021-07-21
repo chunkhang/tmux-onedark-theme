@@ -74,6 +74,9 @@ set "@prefix_highlight_bg" "$onedark_blue"
 set "status-left" "#[fg=$onedark_black,bg=$onedark_blue] #S "
 set "status-right" "#{prefix_highlight}"
 
+set "copy-mode-match-style" "fg=$onedark_black,bg=$onedark_yellow"
+set "copy-mode-current-match-style" "fg=$onedark_black,bg=$onedark_yellow"
+
 pane_sync=#{?pane_synchronized,*,}
 
 set "window-status-format" " #[fg=$onedark_white,bg=$onedark_black] #I${pane_sync} #W "
