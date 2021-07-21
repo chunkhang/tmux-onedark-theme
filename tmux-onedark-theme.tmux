@@ -43,16 +43,16 @@ set "status-left-length" "100"
 set "status-right-length" "100"
 set "status-right-attr" "none"
 
-set "message-style" "fg=$onedark_white" "bg=$onedark_black"
-set "message-command-style" "fg=$onedark_white" "bg=$onedark_black"
+set "message-style" "fg=$onedark_white,bg=$onedark_black"
+set "message-command-style" "fg=$onedark_white,bg=$onedark_black"
 
 set "status-attr" "none"
 set "status-left-attr" "none"
 
-setw "window-status-style" "fg=$onedark_black" "bg=$onedark_black"
+setw "window-status-style" "fg=$onedark_black,bg=$onedark_black"
 setw "window-status-attr" "none"
 
-setw "window-status-activity-style" "fg=$onedark_black" "bg=$onedark_black"
+setw "window-status-activity-style" "fg=$onedark_black,bg=$onedark_black"
 setw "window-status-activity-attr" "none"
 
 setw "window-status-separator" ""
@@ -60,13 +60,13 @@ setw "window-status-separator" ""
 set "window-style" "fg=$onedark_white"
 set "window-active-style" "fg=$onedark_white"
 
-set "pane-border-style" "fg=$onedark_comment_grey" "bg=$onedark_black"
-set "pane-active-border-style" "fg=$onedark_white" "bg=$onedark_black"
+set "pane-border-style" "fg=$onedark_comment_grey,bg=$onedark_black"
+set "pane-active-border-style" "fg=$onedark_white,bg=$onedark_black"
 
 set "display-panes-active-colour" "$onedark_yellow"
 set "display-panes-colour" "$onedark_blue"
 
-set "status-style" "fg=$onedark_white" "bg=$onedark_black"
+set "status-style" "fg=$onedark_white,bg=$onedark_black"
 
 set "@prefix_highlight_fg" "$onedark_black"
 set "@prefix_highlight_bg" "$onedark_blue"
